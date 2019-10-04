@@ -1,4 +1,4 @@
-import moongoose, { Mongoose } from 'mongoose';
+import moongoose from 'mongoose';
 
 const UserSchema = new Mongoose.Schema({
     name: {
@@ -15,3 +15,7 @@ const UserSchema = new Mongoose.Schema({
         required: true
     }
 });
+
+const User = mongoose.model('user', UserSchema);
+
+export default User;
