@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -31,7 +28,7 @@
 .App-header ul li a{
   font-size:calc(5px + 2vmin);
   color: #ffffff;
-  text-decoration:none;
+  text-decorations:none;
 }
 .App-link {
   color: #09d3ac;
